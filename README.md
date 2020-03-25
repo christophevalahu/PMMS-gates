@@ -8,7 +8,7 @@ The Phase Modulated Molmer-Sorensen gate package provides various solutions to d
 - phase_conversion.py :
   Conversion of vector phases to light phases
  
-# Cardiod Analysis
+## Cardiod Analysis
 
 The Two-Tone MS gate leads to a cardiod trajectory in phase space. The same trajectory can be implemented with Phase Modulation. Sampling and phase finding tools are therefore provided for the sake of comparison. 
 
@@ -30,7 +30,7 @@ thetas = findVectAngles(sample_times)
 plotAngles(thetas)
 ```
 
-# Phase Conversion
+## Phase Conversion
 
 The angles of the vectors making up a trajectory in phase space must be converted to phases of light fields. This is done by invoking the following function :
 ```
